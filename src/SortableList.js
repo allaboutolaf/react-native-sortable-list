@@ -173,7 +173,7 @@ export default class SortableList extends Component {
       if (rowsLayouts) {
         const layout = rowsLayouts[key];
 
-        Object.assign(style, {width: rowWidth, zIndex: 0});
+        //Object.assign(style, {width: rowWidth, zIndex: 0});
         location = {
           x: 0,
           y: nextY,
@@ -190,7 +190,7 @@ export default class SortableList extends Component {
       const released = releasedRowKey === key;
 
       if (active || released) {
-        Object.assign(style, {zIndex: 100});
+        //Object.assign(style, {zIndex: 100});
       }
 
       return (
