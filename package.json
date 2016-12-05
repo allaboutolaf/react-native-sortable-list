@@ -5,7 +5,7 @@
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "git@github.com:gitim/react-native-sortable-list.git"
+    "url": "git@github.com:drewvolz/react-native-sortable-list.git"
   },
   "keywords": [
     "react-native",
@@ -15,7 +15,7 @@
   "author": "Tim Gibadullin <tim.gibadullin@gmail.com> (https://github.com/gitim)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/gitim/react-native-sortable-list/issues"
+    "url": "https://github.com/drewvolz/react-native-sortable-list/issues"
   },
-  "homepage": "https://github.com/gitim/react-native-sortable-list"
+  "homepage": "https://github.com/drewvolz/react-native-sortable-list"
 }
