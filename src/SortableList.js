@@ -1,5 +1,5 @@
 import React, {Component, PropTypes} from 'react';
-import {Animated, ScrollView, View, StyleSheet} from 'react-native';
+import {Animated, ScrollView, View, Platform, StyleSheet} from 'react-native';
 import {shallowEqual, swapArrayElements} from './utils';
 import Row from './Row';
 
@@ -173,7 +173,12 @@ export default class SortableList extends Component {
       if (rowsLayouts) {
         const layout = rowsLayouts[key];
 
-        //Object.assign(style, {width: rowWidth, zIndex: 0});
+        if (Platform.OS === 'ios') {
+          Object.assign(style, {width: rowWidth, zIndex: 0});
+        } else {
+          Object.assign(style, {width: rowWidth});
+        }
+
         location = {
           x: 0,
           y: nextY,
@@ -190,7 +195,9 @@ export default class SortableList extends Component {
       const released = releasedRowKey === key;
 
       if (active || released) {
-        //Object.assign(style, {zIndex: 100});
+        if (Platform.OS === 'ios') {
+          Object.assign(style, {zIndex: 100});
+        }
       }
 
       return (
