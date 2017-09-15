@@ -1,12 +1,9 @@
 {
   "name": "react-native-sortable-list",
-  "version": "0.0.2",
+  "version": "0.0.2-2",
   "description": "React Native Sortable List component",
   "main": "index.js",
-  "repository": {
-    "type": "git",
-    "url": "git@github.com:drewvolz/react-native-sortable-list.git"
-  },
+  "repository": "github.com:hawkrives/react-native-sortable-list",
   "keywords": [
     "react-native",
     "ios",
@@ -14,8 +11,7 @@
   ],
   "author": "Tim Gibadullin <tim.gibadullin@gmail.com> (https://github.com/gitim)",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/drewvolz/react-native-sortable-list/issues"
-  },
-  "homepage": "https://github.com/drewvolz/react-native-sortable-list"
+  "dependencies": {
+    "prop-types": "^15.5.10"
+  }
 }
