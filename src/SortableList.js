@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import PropTypes from 'prop-types';
-import {Animated, ScrollView, View, Platform, StyleSheet} from 'react-native';
+import {Animated, ScrollView, View, Platform, StyleSheet, ViewPropTypes} from 'react-native';
 import {shallowEqual, swapArrayElements} from './utils';
 import Row from './Row';
 
@@ -11,8 +11,8 @@ export default class SortableList extends Component {
   static propTypes = {
     data: PropTypes.object.isRequired,
     order: PropTypes.arrayOf(PropTypes.any),
-    style: View.propTypes.style,
-    contentContainerStyle: View.propTypes.style,
+    style: ViewPropTypes.style,
+    contentContainerStyle: ViewPropTypes.style,
     sortingEnabled: PropTypes.bool,
     scrollEnabled: PropTypes.bool,
 
