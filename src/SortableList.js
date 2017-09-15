@@ -1,4 +1,5 @@
-import React, {Component, PropTypes} from 'react';
+import React, {Component} from 'react';
+import PropTypes from 'prop-types';
 import {Animated, ScrollView, View, Platform, StyleSheet} from 'react-native';
 import {shallowEqual, swapArrayElements} from './utils';
 import Row from './Row';
