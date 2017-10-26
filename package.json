@@ -1,6 +1,6 @@
 {
   "name": "@hawkrives/react-native-sortable-list",
-  "version": "0.0.2-2",
+  "version": "1.0.0",
   "description": "React Native Sortable List component",
   "main": "index.js",
   "repository": "github.com:hawkrives/react-native-sortable-list",
