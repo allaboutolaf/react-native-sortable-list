@@ -4,6 +4,7 @@
   "description": "React Native Sortable List component",
   "main": "index.js",
   "repository": "github.com:hawkrives/react-native-sortable-list",
+  "files": ["index.js", "src/"],
   "keywords": [
     "react-native",
     "ios",
